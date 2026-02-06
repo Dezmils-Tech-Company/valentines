@@ -9,7 +9,7 @@ class AppTheme {
     scaffoldBackgroundColor: Colors.pink[50], // ✅ just a fallback color
     textTheme: const TextTheme(
       headlineLarge: TextStyle(
-        fontFamily: 'Cursive',
+        fontFamily: 'Sans',
         fontSize: 32,
         color: Colors.redAccent,
       ),

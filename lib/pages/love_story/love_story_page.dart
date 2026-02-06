@@ -29,8 +29,8 @@ class LoveStoryPage extends StatelessWidget {
                 story[index],
                 textAlign: TextAlign.center, // ✅ centers each line of text
                 style: const TextStyle(
-                  fontSize: 22,
-                  fontFamily: 'Cursive',
+                  fontSize: 26,
+                  fontFamily: 'Sans',
                   color: Colors.black87,
                 ),
               ),

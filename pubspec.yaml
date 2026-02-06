@@ -1,0 +1,43 @@
+name: valentines_surprise_app
+description: Ezra Loves you Beryl 💕
+publish_to: 'none' # Private project, not published
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Animations & UI
+  flutter_animate: ^4.5.0
+  animated_text_kit: ^4.2.2
+
+  # State management
+  provider: ^6.1.0
+
+  # Responsive layouts
+  responsive_framework: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ✅ Bundle all images and fonts
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Cursive
+      fonts:
+        - asset: assets/fonts/GreatVibes-Regular.ttf
+    - family: Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
